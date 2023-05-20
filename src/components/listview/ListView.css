@@ -1,0 +1,18 @@
+.cards-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 5px;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+}
+
+.item img {
+  max-height: 100%;
+}
